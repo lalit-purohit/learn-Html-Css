@@ -1,0 +1,83 @@
+body{
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 24px solid black;
+    background-color: #e3d86d;
+}
+.second{
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: rotate(0deg);
+    transform-origin: top left;
+    animation-name: Second;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+@keyframes Second {
+    
+    100%{
+        rotate: 360deg;
+    }
+}
+.minute{
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: rotate(30deg);
+    transform-origin: top left;
+}
+.hour{
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+}
+.circle{
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    background-color: white;
+    border-radius: 50%;
+    top: 48%;
+    left: 48%;
+}
+.time12{
+    position: absolute;
+    top: 3%;
+    left: 50%;;
+}
+.time3{
+    position: absolute;
+    top: 50%;
+    right: 5%;;
+}
+.time6{
+    position: absolute;
+    top: 90%;
+    left: 50%;;
+}
+.time9{
+    position: absolute;
+    top: 50%;
+    left: 5%;;
+}

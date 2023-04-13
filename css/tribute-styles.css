@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 50px 0;
+    margin: auto;
+  }
+  main{
+    background-color: rgb(227, 225, 225);
+    padding: 20px 30px;
+    margin: 40px 10px;
+  }
+  #img-section{
+    background-color: white;
+    padding: 50px 50px 5px 50px;
+    border-radius: 20px; 
+  }
+  #title{
+    text-align: center;
+  }
+  #img-caption{
+    text-align: center;
+    margin: auto;  
+  }
+  li{
+    padding-bottom: 20px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  #quotes{
+    line-height: 25px;
+    text-align: justify;
+  }
+  #tribute-info{
+    max-width: 50%;
+    margin: auto;
+  }
+  html{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  

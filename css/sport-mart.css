@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+body{
+    font-family: 'Dongle', sans-serif;
+}
+header{
+    display: inline-flex;
+    width: 100%;
+    padding: 32px 42px 32px 42px;
+}
+.company-name{
+    width: 50vw;
+}
+.header-2{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    text-align: end;
+    gap: 10px;
+}
+select {
+    color: gray;
+}
+input.change{
+    background: rgb(78, 78, 78);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 8px 2px 8px;
+}
+input.go{
+    background: rgb(89, 56, 252);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 8px 2px 8px;
+}
+nav{
+    background-color: black;
+    color: white;
+    
+}
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    height: 10vh;
+    padding-left: 42px;
+}
+nav>ul>li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+nav>ul>li:hover{
+    background-color: gray;
+}
+.football{
+    grid-area: Football;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 50px 24px 223px 30px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.football>ul>li, .addidas>ul>li{
+    list-style: none;
+}
+.addidas{
+    grid-area: Addidas;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 4px 50px 45px 50px;
+    display: flex;
+    line-height: 38px;
+}
+.addidas-contant>ul>li{
+    font-size: 24px;
+    color: gray;
+    list-style: none;
+}
+.price{
+    display: flex;
+    padding-bottom: 40px;
+    align-items: baseline;
+}
+.price>h1{
+    font-size: 39px;
+    padding-left: 11px;
+}
+.t-shirt{
+    display: flex;
+    align-items: center;
+}
+.bauser{
+    grid-area: Bauser;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 50px 24px 223px 30px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.advertisment{
+    display: grid;
+    grid-template-areas: 'Football Addidas Addidas Addidas Addidas''Bauser Addidas Addidas Addidas Addidas';
+    gap: 20px;
+    padding: 25px 25px 25px 25px;
+}
+.material{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
